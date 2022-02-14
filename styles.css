@@ -1,0 +1,41 @@
+body {
+  width: 960px;
+  margin: 20px auto;
+  font-family: sans-serif
+}
+
+.face{
+  background-color: gold;
+  width: 500px;
+  height: 500px;
+  margin: 0px auto;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.eyes {
+  width: 80%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20%;
+}
+
+.eye{
+  background-color:rgba(119, 65, 4, 0.856) ;
+  width: 20%;
+  height: 70%;
+  border-radius: 50%;
+}
+
+.mouth{
+  width: 44%;
+  height: 22%;
+  border-bottom: 1.5em solid rgba(119, 65, 4, 0.856);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
